@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ConsumingRestApplication",
+            "request": "launch",
+            "mainClass": "xyz.normalian.example.ChatCompletionApplication",
+            "projectName": "aoai-normalian-sample",
+            "env": {
+                "AOAI_DEPLOYMENT_NAME": "INPUT YOUR Azure OPEN AI DEPLOYMENT NAME",
+                "AOAI_BASE_URL" : "INPUT YOUR Azure OPEN AI BASE URL - https://xxxxxxxxx.openai.azure.com",
+                "AOAI_API_KEY" : "INPUT YOUR Azure OPEN AI API KEY"
+            }
+        }
+    ],
+    "inputs": [
+
+    ]
+}
